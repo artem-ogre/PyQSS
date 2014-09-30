@@ -1,0 +1,20 @@
+@
+color1 = rgb(30,30,30)
+color2 = rgb(60,60,60)
+color3 = color1 + color2
+@
+
+QWidget
+{
+	background-color: $color3$;
+}
+
+QFrame
+{
+	background-color: $color2$;
+}
+
+QMainWindow
+{
+	$gradientWithBreak((0,0), (0,1), 0.3, color1, color2)$
+}
