@@ -4,8 +4,8 @@
 
 QSS file is enhanced with Python snippets in the form of:
 @<...>@ and $<...>$ , where
-@ -- python code will be executed with exec() function (good for defining variables)
-$ -- python code will be executed with eval() function (good for including results of computations)
+* @ -- python code will be executed with exec() function (good for defining variables)
+* $ -- python code will be executed with eval() function (good for including results of computations)
 
 Additionally, a small set of utility classes and methods is provided in helpers.py. These should make integration with QSS more seamless and should be easy to extend.
 
