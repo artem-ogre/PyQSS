@@ -3,7 +3,7 @@
 **pyQSS** is a tool that allows embedding **Python code in Qt Style Sheets** (QSS) files in order to make them easier to maintain, keep consistent and dynamic.
 
 QSS file is enhanced with Python snippets in the form of:
-`@<...>@` and `$<...>$` , where
+`@...@` and `$...$` , where
 * `@` -- python code will be executed with `exec()` function (good for defining variables)
 * `$` -- python code will be executed with `eval()` function (good for including results of computations)
 
