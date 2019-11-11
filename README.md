@@ -1,5 +1,3 @@
-![](http://i59.tinypic.com/23qxaj9.png)
-
 **pyQSS** is a tool that allows embedding **Python code in Qt Style Sheets** (QSS) files in order to make them easier to maintain, keep consistent and dynamic.
 
 QSS file is enhanced with Python snippets in the form of:
